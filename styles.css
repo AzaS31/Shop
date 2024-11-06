@@ -90,8 +90,13 @@ button {
     transition: opacity 0.5s ease;
 }
 
-.brand_figure {
+.brand_block {
+    display: flex;
+    flex-direction: row;
     background-color: #F1E4E6;
+}
+
+.brand_figure {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -124,10 +129,6 @@ button {
 .fashion {
     color: #F16D7F;
     font-size: 32px;
-}
-
-.no-center {
-    align-self: flex-start;
 }
 
 .hidden {
@@ -401,7 +402,7 @@ button {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    background-image: url(./image/photo_subscribe.jpg);
+    background-image: url(./image/photo_subscribe.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
