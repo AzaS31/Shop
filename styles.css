@@ -171,6 +171,15 @@ button {
     gap: 11px;
 }
 
+.menu-man__link, .menu-woman__link, .menu-kids__link {
+    color: #6F6E6E;
+    font-size: 14px;
+}
+
+.menu-man__link:hover, .menu-woman__link:hover, .menu-kids__link:hover {
+    color: #F16D7F;
+}
+
 .recommended_categories_block {
     margin-top: 65px;
     display: flex;
